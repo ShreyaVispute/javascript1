@@ -51,3 +51,32 @@ console.log(typeof myfunction ) // function object
 /**
  * non-primitive datatypes ka datatype is object
  */
+
+
+// ****************************************************************************************
+
+//Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubename="abcxyz.com"
+let anothername=myYoutubename
+anothername="javascript"
+console.log(anothername)
+console.log(myYoutubename)
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne;
+
+userTwo.email="user2@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+/**
+ * Stack (Primitive) , Heap (Non-Primitive)
+ * stack ke andar copy milti hai jisse original value directly change nhi hoti through another variable
+ * heap ke andar direct refernce milta hai jisse se direct changes hote hai through another variable 
+ */
