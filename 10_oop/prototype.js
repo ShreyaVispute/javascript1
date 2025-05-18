@@ -1,6 +1,10 @@
 // let myName="Shreya      "
 // console.log(myName.truelength);
 
+
+//this => refers to current execution context
+//window={this=window
+//node={}
 let myHeros=["Thor","Spiderman"]
 
 let heroPower={
